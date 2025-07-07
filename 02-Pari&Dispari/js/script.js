@@ -23,8 +23,18 @@ function isEven(num){
 let result;
 if (isEven(sum)){
     result = 'pari';
+}
     else{
         result = 'dispari';
     }
-}
+
 console.log ("La somma è" + result);
+
+//Dichiarare il vincitore
+    //Confrontare result con choice
+if (result === choice){
+    console.log("Hai vinto");
+} 
+   else{
+        console.log("Ha vinto il computer");
+    }
