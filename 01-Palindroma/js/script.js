@@ -14,3 +14,11 @@ function isPalindrome(text){
     // Confronto stringa inversa con quella "originale"
     return reversed === text;
 }
+
+// Utilizzo della funzione e stampa risultato
+if (isPalindrome(word)){
+    console.log(`La parola ${word} è palindroma`);
+}
+else{
+    console.log(`La parola '${word}' non è palindroma`);
+}
