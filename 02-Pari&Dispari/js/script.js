@@ -8,6 +8,10 @@ let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 function generateRandomNumber(){
     return Math.floor(Math.random() * 5) + 1;
 }
-// Chiamata della funzione e stampa
+ // Chiamata della funzione e stampa
 let numeroComputer = generateRandomNumber();
 console.log("Il computer ha scelto:" + numeroComputer);
+
+//Somma dei due numeri
+let sum = numeroUtente + numeroComputer;
+console.log("La somma è " + sum);
