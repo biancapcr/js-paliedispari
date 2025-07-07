@@ -15,3 +15,16 @@ console.log("Il computer ha scelto:" + numeroComputer);
 //Somma dei due numeri
 let sum = numeroUtente + numeroComputer;
 console.log("La somma è " + sum);
+
+//Stabilire se la somma dei due numeri è pari o dispari
+function isEven(num){
+    return num % 2 === 0
+}
+let result;
+if (isEven(sum)){
+    result = 'pari';
+    else{
+        result = 'dispari';
+    }
+}
+console.log ("La somma è" + result);
